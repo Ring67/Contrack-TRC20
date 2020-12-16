@@ -16,7 +16,8 @@ contract JagoanPilot is ERC20, ERC20Detailed {
     /**
      * @dev Constructor that gives msg.sender all of existing tokens.
      */
-    constructor () public ERC20Detailed("JagoanPilot", "JGP", 18) {
+    constructor () public ERC20Detailed("MARK MK", "MK", 18) {
         _mint(msg.sender, 100000000 * (10 ** uint256(decimals())));
     }
 }
+A
